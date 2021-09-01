@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "relicraft:items/infusedmetal"
+    "layer0": "relicraft:items/infusedspear"
   },
   "display": {
     "thirdperson_righthand": {

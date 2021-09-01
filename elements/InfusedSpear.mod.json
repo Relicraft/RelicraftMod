@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
-    "texture": "infusedmetal",
+    "texture": "infusedspear",
     "customModelName": "Normal",
     "name": "Infused Spear",
     "specialInfo": [],
