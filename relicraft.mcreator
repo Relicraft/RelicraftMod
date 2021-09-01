@@ -134,6 +134,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "first_infused_metal"
+    },
+    {
+      "name": "Structurejungle1loottable",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "structurejungle_1loottable"
     }
   ],
   "variable_elements": [],
