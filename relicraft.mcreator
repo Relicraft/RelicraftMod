@@ -80,6 +80,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "infused_metal_craft"
+    },
+    {
+      "name": "InfusingPowder",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infusing_powder"
     }
   ],
   "variable_elements": [],
@@ -89,6 +98,7 @@
       "itemGroup.tabrelicraft": "Relicraft",
       "block.relicraft.infused_metal_block": "Infused Metal Block",
       "item.relicraft.infused_metal": "Infused Metal",
+      "item.relicraft.infusing_powder": "Infusing Powder",
       "block.relicraft.infusing_table": "Infusing Table"
     }
   },

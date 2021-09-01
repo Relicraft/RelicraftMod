@@ -8,6 +8,7 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.relicraft.item.InfusingPowderItem;
 import net.mcreator.relicraft.item.InfusedMetalItem;
 import net.mcreator.relicraft.RelicraftMod;
 
@@ -67,7 +68,7 @@ public class InfusionTableProcedureProcedure {
 						}
 						return ItemStack.EMPTY;
 					}
-				}.getItemStack((int) (1))).getItem() == Items.SLIME_BALL)) {
+				}.getItemStack((int) (1))).getItem() == InfusingPowderItem.block)) {
 					while ((((new Object() {
 						public int getAmount(int sltid) {
 							if (entity instanceof ServerPlayerEntity) {

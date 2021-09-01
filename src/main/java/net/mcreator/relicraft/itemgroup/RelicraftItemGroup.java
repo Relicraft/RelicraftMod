@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.relicraft.item.InfusedMetalItem;
+import net.mcreator.relicraft.item.InfusingPowderItem;
 import net.mcreator.relicraft.RelicraftModElements;
 
 @RelicraftModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class RelicraftItemGroup extends RelicraftModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(InfusedMetalItem.block);
+				return new ItemStack(InfusingPowderItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
