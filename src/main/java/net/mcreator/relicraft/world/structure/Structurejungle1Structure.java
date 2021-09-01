@@ -71,7 +71,7 @@ public class Structurejungle1Structure {
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("relicraft", "golem_statut_1"));
+									.getTemplateDefaulted(new ResourceLocation("relicraft", "structure_jungle_1"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
