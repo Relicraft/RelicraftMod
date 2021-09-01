@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "infused_ingot",
+    "texture": "infused_ingot_n",
     "customModelName": "Normal",
     "name": "Infused Metal",
     "rarity": "UNCOMMON",

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "relicraft:items/infused_ingot"
+    "layer0": "relicraft:items/infused_ingot_n"
   }
 }

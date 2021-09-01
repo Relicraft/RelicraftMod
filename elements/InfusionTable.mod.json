@@ -85,6 +85,26 @@
           "x": 259,
           "y": 81
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleeeech.png",
+          "use1Xscale": false,
+          "name": "fleeeech.png",
+          "x": 169,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fleeeechh.png",
+          "use1Xscale": false,
+          "name": "fleeeechh.png",
+          "x": 224,
+          "y": 80
+        }
       }
     ],
     "gridSettings": {

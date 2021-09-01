@@ -56,6 +56,10 @@ public class InfusionTableGuiWindow extends ContainerScreen<InfusionTableGui.Gui
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("relicraft:textures/placeholderpowder.png"));
 		this.blit(ms, this.guiLeft + 133, this.guiTop + 44, 0, 0, 16, 16, 16, 16);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("relicraft:textures/fleeeech.png"));
+		this.blit(ms, this.guiLeft + 43, this.guiTop + 43, 0, 0, 32, 16, 32, 16);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("relicraft:textures/fleeeechh.png"));
+		this.blit(ms, this.guiLeft + 98, this.guiTop + 43, 0, 0, 32, 16, 32, 16);
 		RenderSystem.disableBlend();
 	}
 
