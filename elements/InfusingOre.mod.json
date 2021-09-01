@@ -34,7 +34,7 @@
     ],
     "name": "Infusing Ore",
     "specialInfo": [],
-    "hardness": 1.1,
+    "hardness": 8.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
