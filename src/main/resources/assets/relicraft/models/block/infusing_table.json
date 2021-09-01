@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "relicraft:blocks/infusingtable",
-    "up": "relicraft:blocks/infusingtable",
-    "north": "relicraft:blocks/infusingtable",
-    "east": "relicraft:blocks/infusingtable",
-    "south": "relicraft:blocks/infusingtable",
-    "west": "relicraft:blocks/infusingtable",
-    "particle": "relicraft:blocks/infusingtable"
+    "down": "relicraft:blocks/infusing_table_bottom",
+    "up": "relicraft:blocks/infusing_table_top",
+    "north": "relicraft:blocks/infusing_table_sides",
+    "east": "relicraft:blocks/infusing_table_sides",
+    "south": "relicraft:blocks/infusing_table_sides",
+    "west": "relicraft:blocks/infusing_table_sides",
+    "particle": "relicraft:blocks/infusing_table_bottom"
   }
 }

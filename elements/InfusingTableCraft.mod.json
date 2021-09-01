@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STAINED_GLASS"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "CUSTOM:InfusingPowder"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:InfusingTable"
+    },
+    "name": "infusing_table_craft",
+    "namespace": "mod"
+  }
+}

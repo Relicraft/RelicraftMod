@@ -134,6 +134,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "first_infused_metal"
+    },
+    {
+      "name": "InfusingTableCraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infusing_table_craft"
     }
   ],
   "variable_elements": [],
