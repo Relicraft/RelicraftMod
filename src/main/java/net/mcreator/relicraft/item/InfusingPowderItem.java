@@ -16,7 +16,7 @@ public class InfusingPowderItem extends RelicraftModElements.ModElement {
 	@ObjectHolder("relicraft:infusing_powder")
 	public static final Item block = null;
 	public InfusingPowderItem(RelicraftModElements instance) {
-		super(instance, 9);
+		super(instance, 4);
 	}
 
 	@Override

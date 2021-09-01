@@ -43,7 +43,7 @@ public class InfusingTableBlock extends RelicraftModElements.ModElement {
 	@ObjectHolder("relicraft:infusing_table")
 	public static final Block block = null;
 	public InfusingTableBlock(RelicraftModElements instance) {
-		super(instance, 6);
+		super(instance, 1);
 	}
 
 	@Override

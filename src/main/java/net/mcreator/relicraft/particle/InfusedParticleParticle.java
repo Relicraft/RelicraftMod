@@ -42,9 +42,9 @@ public class InfusedParticleParticle {
 			this.maxAge = (int) Math.max(1, 10 + (this.rand.nextInt(12) - 6));
 			this.particleGravity = (float) 0;
 			this.canCollide = true;
-			this.motionX = vx * 0.5;
-			this.motionY = vy * 0.5;
-			this.motionZ = vz * 0.5;
+			this.motionX = vx * 0.2;
+			this.motionY = vy * 0.2;
+			this.motionZ = vz * 0.2;
 			this.selectSpriteRandomly(spriteSet);
 		}
 

@@ -16,7 +16,7 @@ public class InfusedMetalItem extends RelicraftModElements.ModElement {
 	@ObjectHolder("relicraft:infused_metal")
 	public static final Item block = null;
 	public InfusedMetalItem(RelicraftModElements instance) {
-		super(instance, 1);
+		super(instance, 2);
 	}
 
 	@Override

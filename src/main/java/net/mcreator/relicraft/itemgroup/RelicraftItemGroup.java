@@ -13,7 +13,7 @@ import net.mcreator.relicraft.RelicraftModElements;
 @RelicraftModElements.ModElement.Tag
 public class RelicraftItemGroup extends RelicraftModElements.ModElement {
 	public RelicraftItemGroup(RelicraftModElements instance) {
-		super(instance, 2);
+		super(instance, 5);
 	}
 
 	@Override
