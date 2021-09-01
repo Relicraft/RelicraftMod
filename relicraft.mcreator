@@ -152,6 +152,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "structurejungle_1loottable"
+    },
+    {
+      "name": "Testentity",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testentity"
     }
   ],
   "variable_elements": [],
@@ -165,7 +174,9 @@
       "item.relicraft.infusing_powder": "Infusing Powder",
       "block.relicraft.infusing_table": "Infusing Table",
       "advancements.first_infused_metal.title": "Feel the Infusion",
-      "block.relicraft.infusing_ore": "Infusing Ore"
+      "block.relicraft.infusing_ore": "Infusing Ore",
+      "entity.relicraft.testentity": "Testentity",
+      "item.relicraft.testentity_spawn_egg": "Testentity Spawn Egg"
     }
   },
   "foldersRoot": {
