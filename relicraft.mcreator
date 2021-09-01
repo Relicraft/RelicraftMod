@@ -98,6 +98,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "infused_particle"
+    },
+    {
+      "name": "StatueGolem1",
+      "type": "structure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "statue_golem_1"
+    },
+    {
+      "name": "Structurejungle1",
+      "type": "structure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "structurejungle_1"
     }
   ],
   "variable_elements": [],
