@@ -116,6 +116,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "structurejungle_1"
+    },
+    {
+      "name": "InfusingOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infusing_ore"
     }
   ],
   "variable_elements": [],
@@ -126,7 +135,8 @@
       "block.relicraft.infused_metal_block": "Infused Metal Block",
       "item.relicraft.infused_metal": "Infused Metal",
       "item.relicraft.infusing_powder": "Infusing Powder",
-      "block.relicraft.infusing_table": "Infusing Table"
+      "block.relicraft.infusing_table": "Infusing Table",
+      "block.relicraft.infusing_ore": "Infusing Ore"
     }
   },
   "foldersRoot": {
