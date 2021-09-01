@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "relicraft:blocks/infusedmetalblock",
+    "up": "relicraft:blocks/infusedmetalblock",
+    "north": "relicraft:blocks/infusedmetalblock",
+    "east": "relicraft:blocks/infusedmetalblock",
+    "south": "relicraft:blocks/infusedmetalblock",
+    "west": "relicraft:blocks/infusedmetalblock",
+    "particle": "relicraft:blocks/infusedmetalblock"
+  }
+}

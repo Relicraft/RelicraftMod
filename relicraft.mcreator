@@ -1,0 +1,117 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "InfusedMetal",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infused_metal"
+    },
+    {
+      "name": "Relicraft",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relicraft"
+    },
+    {
+      "name": "InfusedMetalBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infused_metal_block"
+    },
+    {
+      "name": "InfusedMetalBlockCraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infused_metal_block_craft"
+    },
+    {
+      "name": "InfusionTable",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infusion_table"
+    },
+    {
+      "name": "InfusingTable",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infusing_table"
+    },
+    {
+      "name": "InfusionTableProcedure",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infusion_table_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfusedMetalCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infused_metal_craft"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabrelicraft": "Relicraft",
+      "block.relicraft.infused_metal_block": "Infused Metal Block",
+      "item.relicraft.infused_metal": "Infused Metal",
+      "block.relicraft.infusing_table": "Infusing Table"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "relicraft",
+    "modName": "Relicraft",
+    "version": "1.0.0",
+    "author": "Mya, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.relicraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

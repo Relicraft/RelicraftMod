@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "relicraft:blocks/infusingtable",
+    "up": "relicraft:blocks/infusingtable",
+    "north": "relicraft:blocks/infusingtable",
+    "east": "relicraft:blocks/infusingtable",
+    "south": "relicraft:blocks/infusingtable",
+    "west": "relicraft:blocks/infusingtable",
+    "particle": "relicraft:blocks/infusingtable"
+  }
+}

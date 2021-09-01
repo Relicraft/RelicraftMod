@@ -1,0 +1,42 @@
+{
+  "group": "relicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "relicraft:infused_metal"
+    },
+    "1": {
+      "item": "relicraft:infused_metal"
+    },
+    "2": {
+      "item": "relicraft:infused_metal"
+    },
+    "3": {
+      "item": "relicraft:infused_metal"
+    },
+    "4": {
+      "item": "relicraft:infused_metal"
+    },
+    "5": {
+      "item": "relicraft:infused_metal"
+    },
+    "6": {
+      "item": "relicraft:infused_metal"
+    },
+    "7": {
+      "item": "relicraft:infused_metal"
+    },
+    "8": {
+      "item": "relicraft:infused_metal"
+    }
+  },
+  "result": {
+    "item": "relicraft:infused_metal_block",
+    "count": 1
+  }
+}

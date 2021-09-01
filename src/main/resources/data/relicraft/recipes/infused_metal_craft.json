@@ -1,0 +1,13 @@
+{
+  "group": "relicraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "relicraft:infused_metal_block"
+    }
+  ],
+  "result": {
+    "item": "relicraft:infused_metal",
+    "count": 9
+  }
+}
