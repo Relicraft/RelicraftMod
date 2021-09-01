@@ -7,7 +7,5 @@
   "subtitles.infusionsound": "Infusion Sound",
   "block.relicraft.infusing_table": "Infusing Table",
   "advancements.first_infused_metal.title": "Feel the Infusion",
-  "block.relicraft.infusing_ore": "Infusing Ore",
-  "entity.relicraft.testentity": "Testentity",
-  "item.relicraft.testentity_spawn_egg": "Testentity Spawn Egg"
+  "block.relicraft.infusing_ore": "Infusing Ore"
 }
