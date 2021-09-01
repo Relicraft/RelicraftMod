@@ -89,6 +89,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "infusing_powder"
+    },
+    {
+      "name": "InfusedParticle",
+      "type": "particle",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infused_particle"
     }
   ],
   "variable_elements": [],
