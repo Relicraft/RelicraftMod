@@ -1,1 +1,12 @@
-{}
+{
+  "infusionsound": {
+    "category": "block",
+    "subtitle": "subtitles.infusionsound",
+    "sounds": [
+      {
+        "name": "relicraft:infusion_sound",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -99,11 +99,14 @@
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:InfusedParticle"
     },
-    "particleSpawningShape": "Spread",
+    "particleSpawningShape": "Top",
     "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleAmount": 10,
+    "particleCondition": {
+      "name": "InfusingTableParticleSpawningCondition"
+    },
     "hasInventory": false,
     "guiBoundTo": "InfusionTable",
     "openGUIOnRightClick": true,

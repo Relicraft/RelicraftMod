@@ -45,6 +45,8 @@ public class RelicraftModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public RelicraftModElements() {
+		sounds.put(new ResourceLocation("relicraft", "infusionsound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("relicraft", "infusionsound")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("relicraft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

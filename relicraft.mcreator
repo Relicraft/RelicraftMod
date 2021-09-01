@@ -68,6 +68,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -155,7 +171,16 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "infusionsound",
+      "files": [
+        "infusion_sound"
+      ],
+      "category": "block",
+      "subtitle": "Infusion Sound"
+    }
+  ],
   "language_map": {
     "en_us": {
       "itemGroup.tabrelicraft": "Relicraft",
@@ -163,6 +188,7 @@
       "item.relicraft.infused_metal": "Infused Metal",
       "advancements.first_infused_metal.descr": "Obtain your very first Infused Metal !",
       "item.relicraft.infusing_powder": "Infusing Powder",
+      "subtitles.infusionsound": "Infusion Sound",
       "block.relicraft.infusing_table": "Infusing Table",
       "advancements.first_infused_metal.title": "Feel the Infusion",
       "block.relicraft.infusing_ore": "Infusing Ore"
