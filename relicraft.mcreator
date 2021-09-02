@@ -177,6 +177,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "testentity"
+    },
+    {
+      "name": "InfusedSpear",
+      "type": "rangeditem",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infused_spear"
     }
   ],
   "variable_elements": [],
@@ -192,17 +201,18 @@
   ],
   "language_map": {
     "en_us": {
-      "itemGroup.tabrelicraft": "Relicraft",
       "block.relicraft.infused_metal_block": "Infused Metal Block",
-      "item.relicraft.infused_metal": "Infused Metal",
-      "advancements.first_infused_metal.descr": "Obtain your very first Infused Metal !",
       "item.relicraft.infusing_powder": "Infusing Powder",
       "subtitles.infusionsound": "Infusion Sound",
       "block.relicraft.infusing_table": "Infusing Table",
+      "item.relicraft.infused_spear": "Infused Spear",
+      "item.relicraft.testentity_spawn_egg": "Testentity Spawn Egg",
+      "itemGroup.tabrelicraft": "Relicraft",
+      "item.relicraft.infused_metal": "Infused Metal",
+      "advancements.first_infused_metal.descr": "Obtain your very first Infused Metal !",
       "advancements.first_infused_metal.title": "Feel the Infusion",
       "block.relicraft.infusing_ore": "Infusing Ore",
-      "entity.relicraft.testentity": "Testentity",
-      "item.relicraft.testentity_spawn_egg": "Testentity Spawn Egg"
+      "entity.relicraft.testentity": "Testentity"
     }
   },
   "foldersRoot": {
