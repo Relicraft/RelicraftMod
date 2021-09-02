@@ -30,11 +30,14 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.relicraft.procedures.InfusedSpearBulletHitsBlockProcedure;
 import net.mcreator.relicraft.itemgroup.RelicraftItemGroup;
 import net.mcreator.relicraft.entity.renderer.InfusedSpearRenderer;
 import net.mcreator.relicraft.RelicraftModElements;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
 @RelicraftModElements.ModElement.Tag
 public class InfusedSpearItem extends RelicraftModElements.ModElement {
@@ -144,7 +147,7 @@ public class InfusedSpearItem extends RelicraftModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(InfusedSpearItem.block);
+			return null;
 		}
 
 		@Override
@@ -168,6 +171,14 @@ public class InfusedSpearItem extends RelicraftModElements.ModElement {
 			Entity entity = this.func_234616_v_();
 			Entity imediatesourceentity = this;
 			if (this.inGround) {
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					InfusedSpearBulletHitsBlockProcedure.executeProcedure($_dependencies);
+				}
 				this.remove();
 			}
 		}

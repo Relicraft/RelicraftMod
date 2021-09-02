@@ -29,9 +29,12 @@
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:InfusedSpear"
+      "value": ""
     },
     "bulletModel": "Modelcustom_model",
-    "customBulletModelTexture": "infu_spear_texture.png"
+    "customBulletModelTexture": "infu_spear_texture.png",
+    "onBulletHitsBlock": {
+      "name": "InfusedSpearBulletHitsBlock"
+    }
   }
 }
