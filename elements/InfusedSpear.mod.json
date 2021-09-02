@@ -10,7 +10,7 @@
     "creativeTab": {
       "value": "CUSTOM:Relicraft"
     },
-    "stackSize": 1,
+    "stackSize": 32,
     "ammoItem": {
       "value": "CUSTOM:InfusedSpear"
     },

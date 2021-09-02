@@ -56,7 +56,7 @@ public class InfusedSpearItem extends RelicraftModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(RelicraftItemGroup.tab).maxStackSize(1));
+			super(new Item.Properties().group(RelicraftItemGroup.tab).maxStackSize(32));
 			setRegistryName("infused_spear");
 		}
 
