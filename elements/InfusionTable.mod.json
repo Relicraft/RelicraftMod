@@ -18,7 +18,7 @@
           },
           "id": 0,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #0",
           "x": 150,
           "y": 80
@@ -43,7 +43,7 @@
         "data": {
           "id": 2,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #2",
           "x": 204,
           "y": 80
