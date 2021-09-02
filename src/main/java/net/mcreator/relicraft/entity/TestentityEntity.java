@@ -82,7 +82,7 @@ public class TestentityEntity extends RelicraftModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 60;
+			experienceValue = 6000;
 			setNoAI(false);
 		}
 
