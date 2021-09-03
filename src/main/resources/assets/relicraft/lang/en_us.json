@@ -1,9 +1,12 @@
 {
   "block.relicraft.infused_metal_block": "Infused Metal Block",
+  "biome.relicraft.antiquedesert": "Antiquedesert",
   "item.relicraft.infusing_powder": "Infusing Powder",
   "subtitles.infusionsound": "Infusion Sound",
   "block.relicraft.infusing_table": "Infusing Table",
   "item.relicraft.infused_spear": "Infused Spear",
+  "block.relicraft.dry_cactus_top": "Dry Cactus",
+  "block.relicraft.drycactuscorps": "Drycactuscorps",
   "item.relicraft.testentity_spawn_egg": "Testentity Spawn Egg",
   "itemGroup.tabrelicraft": "Relicraft",
   "item.relicraft.infused_metal": "Infused Metal",

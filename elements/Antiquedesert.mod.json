@@ -1,0 +1,98 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Antiquedesert",
+    "groundBlock": {
+      "value": "CUSTOM:AntiqueSand"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:AntiqueSand"
+    },
+    "airColor": {
+      "value": -52,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -3342541,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "CUSTOM:InfusedParticle"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "DESERT",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 1.8,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "DESERT",
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [
+      "HOT",
+      "DRY",
+      "DEAD"
+    ],
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 3,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": "CUSTOM:DryCactus"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "DeadBushes"
+    ],
+    "spawnEntries": []
+  }
+}

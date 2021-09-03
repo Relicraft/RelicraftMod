@@ -257,6 +257,62 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "antique_sand"
+    },
+    {
+      "name": "DryCactus",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dry_cactus_top"
+    },
+    {
+      "name": "Drycactuscorps",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drycactuscorps"
+    },
+    {
+      "name": "DryCactusNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dry_cactus_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antiquedesert",
+      "type": "biome",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "antiquedesert"
     }
   ],
   "variable_elements": [],
@@ -273,10 +329,13 @@
   "language_map": {
     "en_us": {
       "block.relicraft.infused_metal_block": "Infused Metal Block",
+      "biome.relicraft.antiquedesert": "Antiquedesert",
       "item.relicraft.infusing_powder": "Infusing Powder",
       "subtitles.infusionsound": "Infusion Sound",
       "block.relicraft.infusing_table": "Infusing Table",
       "item.relicraft.infused_spear": "Infused Spear",
+      "block.relicraft.dry_cactus_top": "Dry Cactus",
+      "block.relicraft.drycactuscorps": "Drycactuscorps",
       "item.relicraft.testentity_spawn_egg": "Testentity Spawn Egg",
       "itemGroup.tabrelicraft": "Relicraft",
       "item.relicraft.infused_metal": "Infused Metal",
