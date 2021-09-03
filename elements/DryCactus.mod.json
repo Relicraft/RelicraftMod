@@ -124,6 +124,9 @@
     "onNeighbourBlockChanges": {
       "name": "DryCactusNeighbourBlockChanges"
     },
+    "onBlockPlayedBy": {
+      "name": "DryCactusNeighbourBlockChanges"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
