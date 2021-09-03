@@ -10,5 +10,6 @@
   "advancements.first_infused_metal.descr": "Obtain your very first Infused Metal !",
   "advancements.first_infused_metal.title": "Feel the Infusion",
   "block.relicraft.infusing_ore": "Infusing Ore",
-  "entity.relicraft.testentity": "Testentity"
+  "entity.relicraft.testentity": "Testentity",
+  "block.relicraft.antique_sand": "Antique Sand"
 }

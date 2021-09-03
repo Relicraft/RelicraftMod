@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "relicraft:blocks/antique_sand_texture",
+    "up": "relicraft:blocks/antique_sand_texture",
+    "north": "relicraft:blocks/antique_sand_texture",
+    "east": "relicraft:blocks/antique_sand_texture",
+    "south": "relicraft:blocks/antique_sand_texture",
+    "west": "relicraft:blocks/antique_sand_texture",
+    "particle": "relicraft:blocks/antique_sand_texture"
+  }
+}
