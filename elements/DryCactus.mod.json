@@ -143,7 +143,7 @@
     "frequencyPerChunks": 64,
     "frequencyOnChunk": 4,
     "minGenerateHeight": 64,
-    "maxGenerateHeight": 90,
+    "maxGenerateHeight": 75,
     "generateCondition": {
       "name": "DryCactusAdditionalGenerationCondition"
     }

@@ -203,7 +203,7 @@ public class DryCactusBlock extends RelicraftModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(90)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(75)
 					.square().func_242731_b(64);
 			event.getRegistry().register(feature.setRegistryName("dry_cactus_top"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("relicraft:dry_cactus_top"), configuredFeature);
