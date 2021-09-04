@@ -127,12 +127,25 @@
     "onBlockPlayedBy": {
       "name": "DryCactusNeighbourBlockChanges"
     },
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 63,
-    "maxGenerateHeight": 100
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Antiquedesert"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "frequencyPerChunks": 64,
+    "frequencyOnChunk": 4,
+    "minGenerateHeight": 64,
+    "maxGenerateHeight": 90,
+    "generateCondition": {
+      "name": "DryCactusAdditionalGenerationCondition"
+    }
   }
 }
