@@ -14,5 +14,6 @@
   "advancements.first_infused_metal.title": "Feel the Infusion",
   "block.relicraft.infusing_ore": "Infusing Ore",
   "entity.relicraft.testentity": "Testentity",
-  "block.relicraft.antique_sand": "Antique Sand"
+  "block.relicraft.antique_sand": "Antique Sand",
+  "block.relicraft.infused_cactus": "Infused Dry Cactus"
 }

@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "cactus_ancien_texture",
+    "texture": "cactus_ancien_infuse_texture",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "cactus_ancien_haut_st:default",
+    "customModelName": "infused_cactus_ancien_haut:default",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Dry Cactus",
+    "name": "Infused Dry Cactus",
     "specialInfo": [],
     "hardness": 0.6,
     "resistance": 0.5,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:DryCactus"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -94,7 +94,7 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 4,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
@@ -140,7 +140,7 @@
         "value": "Blocks.AIR"
       }
     ],
-    "frequencyPerChunks": 64,
+    "frequencyPerChunks": 10,
     "frequencyOnChunk": 4,
     "minGenerateHeight": 64,
     "maxGenerateHeight": 90,

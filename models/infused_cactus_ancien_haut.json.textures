@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "cactus_ancien_texture"
+        "0": "cactus_ancien_infuse_texture"
       },
       "name": "default"
     }

@@ -1,8 +1,8 @@
 {
-  "parent": "relicraft:custom/cactus_ancien_haut",
+  "parent": "relicraft:custom/cactus_ancien_haut_st",
   "textures": {
     "all": "relicraft:blocks/cactus_ancien_texture",
     "particle": "relicraft:blocks/cactus_ancien_texture",
-    "0": "relicraft:blocks/cactus_ancien_texture"
+    "missing": "relicraft:blocks/cactus_ancien_texture"
   }
 }
