@@ -127,9 +127,7 @@
     "onBlockPlayedBy": {
       "name": "DryCactusNeighbourBlockChanges"
     },
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Antiquedesert"

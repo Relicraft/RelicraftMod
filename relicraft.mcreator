@@ -361,6 +361,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "infusedcactusloottable"
+    },
+    {
+      "name": "DryCactus1Spawn",
+      "type": "structure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dry_cactus_1_spawn"
+    },
+    {
+      "name": "Drycactus2Spawn",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drycactus_2_spawn"
+    },
+    {
+      "name": "Drycactus3Spawn",
+      "type": "structure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drycactus_3_spawn"
+    },
+    {
+      "name": "Infucactus1spawn",
+      "type": "structure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infucactus_1spawn"
+    },
+    {
+      "name": "Infucactus2Spawn",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infucactus_2_spawn"
     }
   ],
   "variable_elements": [],
