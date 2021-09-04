@@ -34,7 +34,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.pathfinding.PathNodeType;
-import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -56,9 +55,7 @@ import net.mcreator.relicraft.RelicraftModElements;
 
 import java.util.Random;
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
-import java.util.Collections;
 
 import com.google.common.collect.ImmutableMap;
 
@@ -119,14 +116,6 @@ public class InfusedCactusBlock extends RelicraftModElements.ModElement {
 		@Override
 		public PushReaction getPushReaction(BlockState state) {
 			return PushReaction.DESTROY;
-		}
-
-		@Override
-		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-			if (!dropsOriginal.isEmpty())
-				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(DryCactusBlock.block));
 		}
 
 		@Override

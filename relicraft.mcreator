@@ -352,6 +352,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "infused_cactus"
+    },
+    {
+      "name": "Infusedcactusloottable",
+      "type": "loottable",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infusedcactusloottable"
     }
   ],
   "variable_elements": [],

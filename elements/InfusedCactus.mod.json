@@ -43,10 +43,10 @@
     },
     "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:DryCactus"
+      "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
