@@ -47,7 +47,7 @@ public class InfusedSpearRenderer {
 			matrixStackIn.push();
 			matrixStackIn.rotate(Vector3f.YP.rotationDegrees(MathHelper.lerp(partialTicks, entityIn.prevRotationYaw, entityIn.rotationYaw) - 90));
 			matrixStackIn.rotate(Vector3f.ZP.rotationDegrees(90 + MathHelper.lerp(partialTicks, entityIn.prevRotationPitch, entityIn.rotationPitch)));
-			EntityModel model = new Modelcustom_model();
+			EntityModel model = new Modelcustom_infuspear();
 			model.render(matrixStackIn, vb, packedLightIn, OverlayTexture.NO_OVERLAY, 1, 1, 1, 0.0625f);
 			matrixStackIn.pop();
 			super.render(entityIn, entityYaw, partialTicks, matrixStackIn, bufferIn, packedLightIn);
@@ -62,9 +62,9 @@ public class InfusedSpearRenderer {
 	// Made with Blockbench 3.9.3
 	// Exported for Minecraft version 1.15 - 1.16 with MCP mappings
 	// Paste this class into your mod and generate all required imports
-	public static class Modelcustom_model extends EntityModel<Entity> {
+	public static class Modelcustom_infuspear extends EntityModel<Entity> {
 		private final ModelRenderer bb_main;
-		public Modelcustom_model() {
+		public Modelcustom_infuspear() {
 			textureWidth = 16;
 			textureHeight = 16;
 			bb_main = new ModelRenderer(this);

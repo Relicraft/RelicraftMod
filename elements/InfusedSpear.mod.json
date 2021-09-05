@@ -31,7 +31,7 @@
     "bulletItemTexture": {
       "value": ""
     },
-    "bulletModel": "Modelcustom_model",
+    "bulletModel": "Modelcustom_infuspear",
     "customBulletModelTexture": "infu_spear_texture.png",
     "onBulletHitsBlock": {
       "name": "InfusedSpearBulletHitsBlock"

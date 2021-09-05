@@ -2,10 +2,10 @@
 // Exported for Minecraft version 1.15 - 1.16 with MCP mappings
 // Paste this class into your mod and generate all required imports
 
-public static class Modelcustom_model extends EntityModel<Entity> {
+public static class Modelcustom_infuspear extends EntityModel<Entity> {
 	private final ModelRenderer bb_main;
 
-	public Modelcustom_model() {
+	public Modelcustom_infuspear() {
 		textureWidth = 16;
 		textureHeight = 16;
 
